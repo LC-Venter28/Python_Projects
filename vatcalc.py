@@ -14,4 +14,5 @@ elif inex == '2':
     print("")
     print("VAT amount: R",price * (100/(100+vat)))
     print("Price including VAT: R",price + (price * (vat/100)))
-
+else:
+    print("Incorrect value given")
